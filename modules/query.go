@@ -8,11 +8,13 @@ import (
 )
 
 var QueryType = graphql.NewObject(graphql.ObjectConfig{
-	Name: "Query",
+	Name:        "Query",
+	Description: "Query do graphQL",
 	Fields: graphql.Fields{
 		"posts": &graphql.Field{
-			Type:    graphql.NewList(types.PostQueryType),
-			Resolve: resolvers.PostsResolver,
+			Type:        graphql.NewList(types.PostQueryType),
+			Resolve:     resolvers.PostsResolver,
+			Description: "Todos os posts",
 		},
 	},
 })
