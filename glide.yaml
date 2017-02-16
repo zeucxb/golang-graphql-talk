@@ -1,0 +1,6 @@
+package: golang-graphql-talk
+import:
+- package: github.com/graphql-go/graphql
+  version: ^0.6.0
+- package: github.com/graphql-go/graphql-go-handler
+- package: gopkg.in/mgo.v2

@@ -1,0 +1,127 @@
+Golang GraphQL API
+Go 1.8 Release Party - Google
+16 Feb 2017
+Tags: golang, graphql, api, talk
+
+Eliseu Codinhoto
+BackEnd, EasyCarros
+
+https://www.youtube.com/euprogramadoroficial
+https://github.com/zeucxb
+@zeucxb
+
+* Quem sou eu?
+
+.image perfil.png 300 _
+
+- Canal [[https://www.youtube.com/euprogramadoroficial][Eu Programador]] :D
+
+* O Projeto
+
+* SecretCrew
+
+.image sc.jpg 300 _
+
+- illuminati 👽
+
+* Ferramentas
+
+* GraphQL
+
+.image graphql.png 300 _
+
+- A Facebook Query Language
+
+* Por que?
+
+- Flexivel
+- Documentação
+- Tipagem (Validação)
+
+* Quem usa?
+
+Grandes empresas como:
+
+- Twitter
+- Facebook
+- GitHub
+- EasyCarros ❤️
+
+* Facebook
+
+.image face.png 300 _
+
+- LOL ¯\_(ツ)_/¯
+
+* Golang
+
+.image gopher.png 300 _
+
+- A Google Language 👌 🤘
+
+* Por que?
+
+- Alto desempenho
+- Concorrente
+- Simples (Pensei em Elixir também)
+- Mercado e curva de aprendizagem
+- ❤️
+
+* Quem usa?
+
+Grandes empresas como:
+
+- Globo.com
+- Google
+- Mercado Livre
+- Luiza Labs
+- Pagar.me
+- Stone
+- Mendelics
+- Nuveo
+- Novatrix
+
+* Google
+
+.image google.jpg 300 _
+
+- 🙌 🙌 🙌 🙌
+
+* A Treta
+
+* O que usar?
+
+Precisava de uma lib para começar a desenvolver minha Golang GraphQL API 🖖
+
+Por sorte uma das palestras da GopherCon Brasil, foi justament sobre isso.
+
+- [[https://github.com/graphql-go/graphql][GraphQL-Go]] foi a escolhida.
+
+- Palestra [[https://www.youtube.com/watch?v=rbK6fAY06DY][Chris Ramón]]
+
+* Onde aprender?
+
+Tem alguns posts antigos no Medium do [[https://wehavefaces.net/@sogko][Hafiz Ismail]] criador da lib.
+
+E alguns exemplos nos repos da [[https://github.com/graphql-go][organização]].
+
+O jeito foi:
+
+- testar e brincar com os exemplos.
+- ler a [[https://godoc.org/github.com/graphql-go/graphql][documentação]].
+
+* Solução
+
+- Usar a lib [[https://github.com/graphql-go/graphql][graphql-go/graphql]]
+- em conjunto com o handler [[https://github.com/graphql-go/handler][graphql-go/handler]]
+- com base nesse [[https://github.com/graphql-go/graphql/blob/master/examples/todo/main.go][exemplo]].
+
+* Outros desafios
+
+- Como organizar meu código GraphQL
+- Aprender a modelar as Queries e Mutations
+- Fazer do jeito GraphQL e não REST
+
+* Code Time
+
+.image codetime.png 300 _
