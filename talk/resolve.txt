@@ -1,0 +1,14 @@
+var InsertPostResolver = func(params graphql.ResolveParams) (interface{}, error) {
+	newMessage, ok := params.Args["message"].(string)
+	if !ok {
+		return newMessage, fmt.Errorf("SYSTEM ERROR")
+	}
+
+	newPost := Post{
+		Message: newMessage,
+	}
+
+	PostList = append([]Post{newPost}, PostList...)
+
+	return newPost.Message, nil
+}

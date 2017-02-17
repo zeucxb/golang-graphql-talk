@@ -125,3 +125,32 @@ O jeito foi:
 * Code Time
 
 .image codetime.png 300 _
+
+* Base do GraphQL
+
+- Schema
+- Queries
+- Mutations
+- Types
+- Fields
+- Resolve
+
+* Schema
+
+.code schema.txt
+
+* Queries
+
+.code queries.txt
+
+* Mutations
+
+.code mutations.txt
+
+* Types
+
+.code types.txt
+
+* Resolve
+
+.code resolve.txt

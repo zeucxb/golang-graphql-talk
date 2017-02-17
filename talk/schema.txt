@@ -1,0 +1,4 @@
+var Schema, _ = graphql.NewSchema(graphql.SchemaConfig{
+	Query:    QueryType,
+	Mutation: MutationType,
+})

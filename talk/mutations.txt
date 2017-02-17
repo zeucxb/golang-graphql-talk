@@ -1,0 +1,16 @@
+var MutationType = graphql.NewObject(graphql.ObjectConfig{
+	Name:        "Mutation",
+	Description: "Mutation do graphQL",
+	Fields: graphql.Fields{
+		"insertPost": &graphql.Field{
+			Type: graphql.String,
+			Args: graphql.FieldConfigArgument{
+				"message": &graphql.ArgumentConfig{
+					Type: graphql.NewNonNull(graphql.String),
+				},
+			},
+			Resolve:     InsertPostResolver,
+			Description: "Adiciona um novo post",
+		},
+	},
+})

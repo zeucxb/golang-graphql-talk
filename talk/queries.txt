@@ -1,0 +1,11 @@
+var QueryType = graphql.NewObject(graphql.ObjectConfig{
+	Name:        "Query",
+	Description: "Query do graphQL",
+	Fields: graphql.Fields{
+		"posts": &graphql.Field{
+			Type:        graphql.NewList(PostQueryType),
+			Resolve:     PostsResolver,
+			Description: "Todos os posts",
+		},
+	},
+})
