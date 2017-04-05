@@ -1,5 +1,5 @@
 # Golang GraphQL Talk
-Golang Graphql API Talk
+Golang GraphQL API Talk - Google
 
 # Slides
 Instale o present:
