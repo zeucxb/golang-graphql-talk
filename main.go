@@ -29,7 +29,7 @@ func main() {
 	})
 
 	// static file server to serve Graphiql in-browser editor
-	fs := http.FileServer(http.Dir("static"))
+	fs := http.FileServer(http.Dir("vendor/static"))
 
 	// serve a GraphQL endpoint at `/graphql`
 	http.Handle("/graphql", h)
